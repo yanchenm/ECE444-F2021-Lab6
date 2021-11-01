@@ -8,6 +8,10 @@ flask = "==1.1.2"
 pytest = "==6.1.1"
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
